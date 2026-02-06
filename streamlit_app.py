@@ -6,7 +6,7 @@ from PIL import Image
 import os
 
 # model_path = 'person_classifier.h5'  # Nếu run local
-model = tf.keras.models.load_model('/workspaces/blank-app/person_classifier.h5')
+model = tf.keras.models.load_model("person_classifier.h5")
 
 IMG_SIZE = 224
 
