@@ -5,8 +5,10 @@ import numpy as np
 from PIL import Image
 import os
 
-# model_path = 'person_classifier.h5'  # Nếu run local
-model = tf.keras.models.load_model("person_classifier.h5")
+model = tf.keras.models.load_model(
+    "person_classifier.h5",
+    compile=False
+)
 
 IMG_SIZE = 224
 
