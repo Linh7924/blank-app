@@ -1,3 +1,23 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Env
+.env
+.venv/
+venv/
+
+# Editor settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Test cache
+.pytest_cache/
+
+# Do NOT ignore model files (.h5) so they can be pushed (we use Git LFS)
 .streamlit/secrets.toml
 
 # Byte-compiled / optimized / DLL files
